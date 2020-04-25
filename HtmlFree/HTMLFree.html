@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Open Sans", "Raleway", sans-serif}
+
+body{
+   position: relative;
+   min-height: 100vh;
+
+}
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main {
+    height: 70px;
+    width: 500px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 230px;
+    left: 100px;
+  }
+  .premain {
+    height: 30px;
+    font-size: 11px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    letter-spacing: 4.5px;
+    color: rgb(190, 190, 190);
+  }
+
+  .header {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 0px;
+    left: 10px;
+  }
+  .logo__text {
+    font-size: 30px;
+    color: white;
+    font-weight: 650;
+  }
+  .logo--dot {
+    color: green;
+  }
+
+  nav {
+    position: absolute;
+    right: 30px;
+    width: 100px;
+    height: 70px;
+    top: 20px;
+  }
+  .menu__text {
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: green;
+  }
+  .menu__icon {
+    position: absolute;
+    display: inline-block;
+  }
+  .icon--line {
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    margin: 5px 0;
+  }
+  
+  .btns {
+    position: absolute;
+    top: 480px;
+    left: 97px;
+    height: 25px;
+    width: 400px;
+  }
+
+  .btn1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 20px;
+    width: 170px;
+    border: 2px solid white; 
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: white;
+    padding: 10px 5px;
+    font-weight: 700;
+  }
+  
+
+  .btn2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20px;
+    width: 170px;
+    border: 2px solid white; 
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: white;
+    padding: 10px 5px;
+    font-weight: 700;
+  }
+  
+
+  .social-icons {
+    position: absolute;
+    top: 250px;
+    right: 30px;
+    height: 200px;
+    width: 30px;
+  }
+  img.icons {
+    margin-top: 10px;
+  }
+
+  .scroll{
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+
+    height: 100px;
+    width: 150px;
+    border-right: 3px solid green;
+
+  }
+  .scroll__text{
+    margin-left: 10px;
+    font-size: 10px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    display: inline-block;
+  }
+  .scroll__pointer{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid green;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+
+  }
+
+  
+</style>
+    
+  
+ </head>
+ 
+ 
+ <body>
+  <img src="images/leaf.jpg" class="bg">
+  <header class="header">
+     <div class="logo"> 
+       <p class="logo__text">Glint<span class="logo--dot" >.</span></p>   
+      </div> 
+      
+    </header>
+     
+    <nav class="menu"> 
+      <span class="menu__text">MENU</span> 
+        
+        <div class="menu__icon">
+          <div class="icon--line"></div> 
+          <div class="icon--line"></div> 
+          <div class="icon--line">
+      </div> 
+    </nav> 
+    <div class="premain"><h2>WELCOME TO GLINT</h2></div>
+    <div class="main"> <h1>Free HTML <br>Website Templates</br></h1> </div> 
+    
+
+    <div class="btns">
+      <a class="btn1"> 
+       <span class="btn1__text">START A PROJECT</span> 
+      </a> 
+      <a class="btn2"> 
+       <span class="btn2__text">MORE ABOUT US</span> 
+      </a>
+    </div>
+     
+    <div class="social-icons">
+      <div><img src="images/Facebook.svg" class="icons"></div>
+      <div><img src="images/Twitter.svg" class="icons"></div>
+      <div><img src="images/Instagram.svg" class="icons"></div>
+      <div><img src="images/Behance.svg" class="icons"></div>
+      <div><img src="images/Dribbble.svg" class="icons"></div>
+    </div>
+
+    <div class="scroll">
+      <div class="scroll__pointer"></div>
+      <div class="scroll__text">SCROLL DOWN</div>
+      
+    </div>
+ </body>
+</html>
