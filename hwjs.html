@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Objects </title>
+</head>
+<body>
+
+</body>
+
+<script> 
+let numbers = {
+    first: 100,
+    second: 5,
+};
+
+
+
+function division({first, second}) {
+   let res = first / second;
+   return res;
+}
+
+console.log(division(numbers));
+
+let object = {
+    bool: true,
+    number: 1984,
+    null: null,
+    symbol: 'ä',
+    ...numbers
+};
+
+console.log(division(object));
+
+</script>
+</html>
